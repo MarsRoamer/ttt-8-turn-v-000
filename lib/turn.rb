@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts "------------"
@@ -39,4 +40,12 @@ def turn(board)
   end
   move(board, user_index)
   display_board(board)
+=======
+def move(array)
+  puts " array[0] | array[1] | array[2] "
+  puts "------------"
+  puts " array[3] | array[4] | array[5] "
+  puts "------------"
+  puts " array[6] | array[7] | array[8] "
+>>>>>>> 1ad1ba29f5fb847da9fcb8d659fc650a912698ec
 end
